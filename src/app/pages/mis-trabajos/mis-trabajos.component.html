@@ -1,0 +1,115 @@
+<div class="test">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="mivh2">
+
+            </div>
+
+            <article class=" mivh pb ">
+
+                <h2>Estos son los proyectos en los que he trabajado.</h2>
+
+
+                <div id="carouselAutoplaying" class="hero carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        @for (post of postsDone; track post._id) {
+                        <div class="carousel-item active">
+
+                            <div class="carousel-content">
+                                <div class="carousel-text row">
+                                    <h5 class="mt-4 mb-4 col-12">{{post.title}}</h5>
+
+                                    <a class="col-12 col-md-6" href="{{post.url}}" target="_blank">
+                                        <div class="foto d-flex justify-content-end position-relative"
+                                            style="    background-image: url({{post.img}});">
+                                            <a class="migithub position-absolute top-0 end-0" href="{{post.git}}"
+                                                target="_blank" style="z-index: 1;">
+                                                <i class="fa-brands fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </a>
+
+                                    <div class="col-12 col-md-6">
+                                        <p class="parrafo">{{post.description}}
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        }
+
+                    </div>
+                    <button class="mibtn carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button class="mibtn carousel-control-next d-flex justify-content-end align-items-end" type="button"
+                        data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next" aria-hidden="true"></span>
+                        <span></span>
+                    </button>
+
+                </div>
+
+            </article>
+
+            <article class=" col-12 mivh">
+
+                <h2>Aquí puedes ver mis proyectos en curso.</h2>
+
+
+                <div id="carouselAutoplaying" class="hero carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        @for (post of postsActive; track post._id) {
+                        <div class="carousel-item active">
+
+                            <div class="carousel-content">
+                                <div class="carousel-text row">
+                                    <h5 class="mt-4 mb-3 col-12">{{post.title}}</h5>
+
+                                    <a class="col-12 col-md-6" href="{{post.url}}" target="_blank">
+                                        <div class="foto d-flex justify-content-end position-relative"
+                                            style="background-image: url(../../../assets/img/ME.jpeg);">
+                                            <a class="migithub position-absolute top-0 end-0" href="{{post.git}}"
+                                                target="_blank" style="z-index: 1;">
+                                                <i class="fa-brands fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </a>
+
+                                    <div class="col-12 col-md-6">
+                                        <p class="parrafo">{{post.description}}
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        }
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button class="carousel-control-next d-flex justify-content-end align-items-end" type="button"
+                        data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next" aria-hidden="true"></span>
+                        <span class="arrow"></span>
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+</div>

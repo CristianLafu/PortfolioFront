@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css?family=Platypi:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet"');
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --titlefont: 'Playfair';
+    --mainfont: 'Platypi';
+
+    /* Colors */
+    --portdark: #062726;
+    --portblue: #102B3F;
+    --portindi: #6247AA;
+    --portpurple: #A06CD5;
+    --portviolet: #E2CFEA;
+    --portblack: #111111;
+}

@@ -1,0 +1,21 @@
+.nav {
+    background: linear-gradient(180deg, var(--portindi) 0%, var(--portblue) 40%);
+
+}
+
+.navbar {
+    color: var(--portviolet);
+    font-family: var(--titlefont);
+
+
+    & a {
+        color: var(--portviolet);
+        font-family: var(--mainfont);
+    }
+
+}
+
+.navbar-toggler {
+    background-color: var(--portviolet);
+    border-color: var(--portviolet);
+}

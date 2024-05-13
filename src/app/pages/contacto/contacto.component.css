@@ -1,0 +1,36 @@
+.test {
+    width: 100%;
+    background: linear-gradient(180deg, var(--portblue) 0%, var(--portblue) 50%);
+    color: var(--portviolet);
+
+}
+
+.cabecera {
+    min-height: 30vh;
+
+
+    & h1 {
+        font-family: var(--titlefont);
+        font-size: 4rem;
+    }
+
+    & h3 {
+        font-family: var(--titlefont);
+    }
+}
+
+
+.foto {
+    height: calc(60vh - 1.5rem);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+
+    transition: transform 2s;
+
+}
+
+.foto:hover {
+    background-color: var(--portindi);
+    mix-blend-mode: difference;
+}

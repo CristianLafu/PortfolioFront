@@ -1,0 +1,97 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+
+.test {
+    width: 100%;
+    background: linear-gradient(180deg, var(--portblue) 0%, var(--portblue) 50%);
+    color: var(--portviolet);
+
+}
+
+.cabecera {
+
+
+
+    & h1 {
+        font-family: var(--titlefont);
+        font-size: 4rem;
+    }
+
+    & h3 {
+        font-family: var(--titlefont);
+    }
+}
+
+
+.p-t {
+    padding-top: 75px;
+}
+
+.mivh {
+    min-height: 47vh;
+}
+
+.mivh2 {
+    min-height: 6vh;
+}
+
+article {
+    font-family: var(--mainfont);
+    font-size: 1.25rem;
+    color: var(--portviolet);
+    /* padding-bottom: 35px; */
+
+
+    & h2 {
+        color: var(--portviolet);
+        font-size: 40px;
+        font-family: var(--titlefont);
+        margin-bottom: -15px;
+        margin-top: 5px;
+        
+    }
+
+    & h5 {
+        color: var(--portviolet);
+        font-size: 35px;
+        font-family: var(--titlefont);
+    }
+
+}
+
+.pb {
+    border-bottom: 0.125rem solid var(--portpurple);
+
+}
+
+
+.foto {
+    height: 18.75rem;
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 0.3125rem;
+
+}
+
+.migithub {
+    color: var(--portblack);
+    text-shadow: 0rem 0rem 0.75rem var(--portpurple);
+    font-size: 2.8125rem;
+    margin-right: 1.25rem;
+
+}
+
+.parrafo {
+    height: 18.75rem;
+    overflow-y: scroll;
+    margin-left: 1.25rem;
+    margin-right: 0.625rem;
+
+}
+
+.mibtn {
+    width: 5.5rem;
+
+}
